@@ -28,6 +28,7 @@ urls = [
     'https://dl.dropboxusercontent.com/s/l7ga4ea98hfl49b/pexels-photo-333529.jpeg',
     'https://dl.dropboxusercontent.com/s/rleff9tx000k19j/pexels-photo-341520.jpeg'
 ]
+
 if __name__ == "__main__":
     maker = ThumbnailMakerService()
     maker.make_thumbnails(urls)
